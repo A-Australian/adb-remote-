@@ -1,5 +1,8 @@
-windows-adb-remote
+windows-adb-++!
 ==================
+
+(To-do; Update Readme!)
+
 A simple console application which allows to connect via adb to an android device and send via "adb input keyevents <id>" different inputs.
 
 Keys that are mapped:
@@ -15,6 +18,8 @@ A-Z + 1-0 -> Normal Keyboard Keys
 Comma -> ,
 
 Period -> .
+
+F5, F6, F7 -> Volume Keys (Mute, volume down, volume up respectively)
 
 F5 -> Back to Menu
 
