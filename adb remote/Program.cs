@@ -242,6 +242,15 @@ namespace adb_remote
                     case ConsoleKey.OemComma:
                         adbCommand("shell input keyevent 55");
                         break;
+                     case ConsoleKey.F6:
+                        adbCommand("shell input keyevent 164");
+                        break;
+                    case ConsoleKey.F7:
+                        adbCommand("shell input keyevent 25");
+                        break;
+                    case ConsoleKey.F8:
+                        adbCommand("shell input keyevent 24");
+                        break;
                     case ConsoleKey.F5:
                         getOut = true;
                         break;
